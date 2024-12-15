@@ -3,3 +3,5 @@ logs.log
 clustering_name.ipynb
 clustering_model.ipynb
 .env
+app_stare.py
+app copy.py
