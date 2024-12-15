@@ -195,7 +195,6 @@ with tab2:
     )
 
     # Upewnienie się, że brakujące wartości zostały zastąpione poprawnymi etykietami
-    # Jeśli jakieś brakujące wartości pozostały w kolumnach kluczowych, zastępujemy je "brak"
     for col in ['gender', 'edu_level', 'age', 'fav_animals', 'fav_place']:
         if col in df_gender_edu_age_animals_place_filtered.columns:
             df_gender_edu_age_animals_place_filtered[col] = df_gender_edu_age_animals_place_filtered[col].fillna('brak')
@@ -242,7 +241,7 @@ with tab2:
         # Wyświetlanie pierwszego wykresu słonecznego
         col1, col2 = st.columns([1, 1])
         with col1:
-            st.plotly_chart(fig_sunburst_gender_edu_age_animals_place, use_container_width=True)
+            st.plotly_chart(fig_sunburst_gender_edu_age_animals_place, use_container_width=True, key="sunburst1")
 
         # Generowanie drugiego wykresu słonecznego, który dynamicznie zmienia dane na podstawie kliknięcia
         with col2:
@@ -258,8 +257,7 @@ with tab2:
 
                 # Dodanie procentów dynamicznych przy kliknięciu
                 fig_sunburst_gender_edu_age_animals_place2.update_traces(
-                    branchvalues="remainder",  # Procenty obliczane tylko w obrębie wybranego segmentu
-                    textinfo='label+percent entry',  # Wyświetlanie procentów opartych na klikniętym pierścieniu
+                    branchvalues="remainder",  # Procenty obliczane na poziomie całego wykresu
                     textfont=dict(size=14, family="Arial", color="black", weight='bold')
                 )
 
@@ -272,4 +270,5 @@ with tab2:
                 )
 
                 # Wyświetlanie drugiego wykresu słonecznego
-                st.plotly_chart(fig_sunburst_gender_edu_age_animals_place2, use_container_width=True)
+                st.plotly_chart(fig_sunburst_gender_edu_age_animals_place2, use_container_width=True, key="sunburst2")
+
