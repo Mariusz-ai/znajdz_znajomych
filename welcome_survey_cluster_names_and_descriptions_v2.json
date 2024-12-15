@@ -1,0 +1,35 @@
+{
+    "Cluster 0": {
+      "name": "Miłośnicy Wody i Psów z Wyższym Wykształceniem",
+      "description": "Osoby w tej grupie preferują spędzanie czasu nad wodą i mają wyższe wykształcenie. Większość z nich to mężczyźni w wieku 35-44 lat, a ich ulubionymi zwierzętami są psy."
+    },
+    "Cluster 1": {
+      "name": "Górscy Entuzjaści z Wyższym Wykształceniem",
+      "description": "Osoby w tej grupie preferują spędzanie czasu w górach i posiadają wyższe wykształcenie. Większość z nich to mężczyźni w wieku 45-54 lat, a ich ulubionymi zwierzętami są psy."
+    },
+    "Cluster 2": {
+      "name": "Miłośnicy Gór i Kotów z Wyższym Wykształceniem",
+      "description": "Osoby w tej grupie preferują spędzanie czasu w górach i mają wyższe wykształcenie. Większość z nich to mężczyźni w wieku 35-44 lat, a ich ulubionymi zwierzętami są koty."
+    },
+    "Cluster 3": {
+      "name": "Leśni Miłośnicy Psów z Wyższym Wykształceniem",
+      "description": "Osoby w tej grupie preferują spędzanie czasu w lesie i mają wyższe wykształcenie. Większość z nich to mężczyźni w wieku 45-54 lat, a ich ulubionymi zwierzętami są psy."
+    },
+    "Cluster 4": {
+      "name": "Górscy Miłośnicy Kotów ze Średnim Wykształceniem",
+      "description": "Osoby w tej grupie preferują spędzanie czasu w górach i mają średnie wykształcenie. Większość z nich to mężczyźni w wieku 45-54 lat, a ich ulubionymi zwierzętami są koty."
+    },
+    "Cluster 5": {
+      "name": "Miłośnicy Wody bez Ulubionych Zwierząt z Wyższym Wykształceniem",
+      "description": "Osoby w tej grupie preferują spędzanie czasu nad wodą i mają wyższe wykształcenie. Większość z nich to mężczyźni w wieku 35-44 lat, a nie mają określonych ulubionych zwierząt."
+    },
+    "Cluster 6": {
+      "name": "Miłośnicy Wody i Psów z Wyższym Wykształceniem",
+      "description": "Osoby w tej grupie preferują spędzanie czasu nad wodą i mają wyższe wykształcenie. Większość z nich to mężczyźni w wieku 45-54 lat, a ich ulubionymi zwierzętami są psy."
+    },
+    "Cluster 7": {
+      "name": "Miłośnicy Wody i Psów ze Średnim Wykształceniem",
+      "description": "Osoby w tej grupie preferują spędzanie czasu nad wodą i mają średnie wykształcenie. Większość z nich to mężczyźni w wieku 35-44 lat, a ich ulubionymi zwierzętami są psy."
+    }
+  }
+  

@@ -1,0 +1,5 @@
+data/
+logs.log
+clustering_name.ipynb
+clustering_model.ipynb
+.env
